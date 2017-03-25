@@ -1,4 +1,7 @@
-num = 0
-while(num % 2 == 0):
-    num + 1
-print(num)
+c = -2
+num = -2
+while(c < 40):
+    num += 1
+    if (num %2 == 0):
+        print(num)
+    c = c + 1
