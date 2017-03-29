@@ -1,12 +1,12 @@
 c = 0
-nums = []
+nros = []
 menor = 0
 
 while(c<=9):
     nro = int(input("Ingrese un número para agregar a la lista: "))
     nums.append(nro)
     c = c + 1
-    menor = nums[0]
+    menor = nros[0]
 for i in nums:
     if (i < menor):
         menor = i
