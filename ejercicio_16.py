@@ -4,7 +4,7 @@ menor = 0
 
 while(c<=9):
     nro = int(input("Ingrese un número para agregar a la lista: "))
-    nums.append(nro)
+    nros.append(nro)
     c = c + 1
     menor = nros[0]
 for i in nums:
